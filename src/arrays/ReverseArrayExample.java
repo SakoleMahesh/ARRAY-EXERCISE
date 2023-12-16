@@ -17,7 +17,6 @@ public class ReverseArrayExample{
         int len=array.length;
 
         for (int i=0;i<len/2;i++) {
-           
             int temp = array[i];
             array[i] = array[len-i-1];
             array[len-i-1] =temp;

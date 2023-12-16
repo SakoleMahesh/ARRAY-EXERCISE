@@ -5,13 +5,11 @@ import java.util.Arrays;
 public class FindDuplicate{
 
 	public static void main(String[] args) {
-		
 		int[]nums = {10,1,9,4,1,4,5};
 		System.out.println("Given array is : "+Arrays.toString(nums));
 		System.out.println("Duplicate elements are :"+Arrays.toString(duplicateNumbers(nums)));
-		
-		
-	}
+		}
+	
 	public static int[] duplicateNumbers(int[]nums)
 	{
 		int counter = 0;
