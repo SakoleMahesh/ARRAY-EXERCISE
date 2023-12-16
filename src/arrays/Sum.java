@@ -1,10 +1,9 @@
 package arrays;
-
 import java.util.Arrays;
 
 public class Sum {
 
-	public static int Sum(int arr[]) {
+	public static void add(int arr[]) {
 		int Addition=0;
 		for(int i=0;i<arr.length;i++)
 		{
@@ -12,7 +11,7 @@ public class Sum {
 		}
 		
 		System.out.println("Sum of Given array Element is ="+Addition);
-		return 0;
+		
 		
 		
 	}
@@ -21,9 +20,9 @@ public class Sum {
 	{
 		int arr[]= {1,2,3,4,5};
 		
-		Sum(arr);
+		add(arr);
 		int isum = Arrays.stream(arr).sum();
-		System.out.println("Sum of Given array Element using strem array is="+isum);
+		System.out.println("Sum of Given array Element using Arrays.Stream is="+isum);
 
 	}
 

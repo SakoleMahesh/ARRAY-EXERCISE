@@ -13,10 +13,11 @@ public class Rotate {
 		
 		for (int i = 0; i < length / 2; i++) {
 			temp = array[i];
-            for (int j = length - 1; j >i; j--) {
+            for (int j = length - 1; j >i;) {
                 
                 array[i] = array[j];
                 array[j] = temp;
+                j--;
                 break;
             	}
           
